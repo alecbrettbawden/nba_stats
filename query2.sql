@@ -6,5 +6,3 @@ GROUP BY
 	TEAM_ABBREVIATION
 ORDER BY
 	SUM(AST*GP) DESC
-
-select * from dbo.nba_stats
