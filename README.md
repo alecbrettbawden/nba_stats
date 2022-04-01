@@ -4,6 +4,10 @@ Alec Bawden
 
 ## DESCRIPTION
 
+I retreived the data by going to nba.com/stats and using Chrome's inspect tool to watch the network activity. Through the network inspection, I was able to see the FETCH commands, headers, and responses
+which I recreated using TALEND API Tester, a chrome plugin similar to Postman. I recreated the GET requests required to grab the data and then used the Requests library in python to receive the data as a JSON object.
+The class is dynamic so it can take any season and grab the same 5 questions below. As of right now I pass in a season parameter so that the script grabs 2015-16 data.
+
 Aumni 2015-16 NBA Stats questions:
 
 1. Which player played the third most minutes (MP) across the entire season, and how many minutes did he play?

@@ -1,3 +1,5 @@
+-- USING CTE, however, same solution can be done using Subqueries
+
 WITH team (name, total_points)
 AS
 (SELECT
